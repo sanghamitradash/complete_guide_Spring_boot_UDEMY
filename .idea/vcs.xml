@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-spring-boot-overview/01-spring-boot-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-spring-boot-overview/02-dev-tools-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-spring-boot-overview/02-dev-tools-demo/https:/github.com/sanghamitradash/complete_guide_Spring_boot_UDEMY.git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-spring-boot-overview/03-actuator-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-spring-boot-overview/04-actuator-security-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-spring-boot-overview/05-command-line-demo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/01-spring-boot-overview/06-properties-demo " vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/03-spring-boot-hibernate-jpa-crud/01-cruddemo-student/https:/github.com/sanghamitradash/mycoolapp_Udemy.git" vcs="Git" />
+  </component>
+</project>
