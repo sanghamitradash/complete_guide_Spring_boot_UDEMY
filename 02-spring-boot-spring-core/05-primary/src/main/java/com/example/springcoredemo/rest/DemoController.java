@@ -9,10 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    // define private field for dependency
+    //define a private field for dependency
     private Coach myCoach;
-
-    //for some setter injection
 
     @Autowired
     public DemoController(Coach theCoach){
@@ -23,5 +21,4 @@ public class DemoController {
     public String getDailyWorkout(){
         return myCoach.getDailyWorkout();
     }
-
 }

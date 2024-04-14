@@ -58,15 +58,17 @@ public class EmployeeRestController {
         return dbEmployee;
     }
 
-    //add mapping for delete employees/{employeeId} - delete employee
-    @DeleteMapping("/employee/{employeeId}")
+    //add mapping for delete /employees/{employeeId} - delete employee
+    @DeleteMapping("/employees/{employeeId}")
     public String deleteEmployee(@PathVariable int employeeId){
         Employee theEmployee = employeeService.findById(employeeId);
 
         if(theEmployee == null){
             throw new RuntimeException("Employee not found - " +employeeId);
         }
+
         employeeService.deleteById(employeeId);
-        return "Deleted employee id - "+employeeId;
+
+        return "Deleted employee id - " + employeeId;
     }
 }
