@@ -18,7 +18,19 @@ public class DemoSecurityConfig {
     @Bean
     public UserDetailsManager userDetailsManager(DataSource dataSource){
 
-        return new JdbcUserDetailsManager(dataSource);//tell spring boot to use JDBC authentication with our data source
+        JdbcUserDetailsManager jdbcUserDetailsManager = new JdbcUserDetailsManager(dataSource);
+
+        //Below Code written is for set custom tables means different from default table schemas like users and authorities
+
+        //define query to retrieve a user by userName
+        jdbcUserDetailsManager.setUsersByUsernameQuery(
+                "select user_id, pw, active from members where user_id=?");
+
+        //define query to retrieve authorities/roles by userName
+        jdbcUserDetailsManager.setAuthoritiesByUsernameQuery(
+                "select user_id, role from roles where user_id=?"
+        );
+        return jdbcUserDetailsManager;
     }
 
     @Bean
