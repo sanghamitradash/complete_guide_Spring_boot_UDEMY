@@ -6,11 +6,12 @@ public class Student {
     private String lastName;
 
     //make a no arg constructor
-    public Student(){
+    public Student() {
 
     }
 
     public String getFirstName() {
+
         return firstName;
     }
 
