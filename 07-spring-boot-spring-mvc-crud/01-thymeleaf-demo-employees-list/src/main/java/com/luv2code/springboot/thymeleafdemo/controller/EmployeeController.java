@@ -13,27 +13,33 @@ import java.util.List;
 @RequestMapping("/employees")
 public class EmployeeController {
 
-    //create a field employeeService
     private EmployeeService employeeService;
 
-    /* create a constructor injection: BECAUSE here we have only one constructor in our class
-    so AUTOWIRED annotation is optional
-    SO Spring will still inject this given dependency */
-    public EmployeeController(EmployeeService theEmployeeService){
+    public EmployeeController(EmployeeService theEmployeeService) {
         employeeService = theEmployeeService;
     }
 
-    //add mapping for "/list"
-    @GetMapping("/list")
-    public String listEmployees(Model theModel){
+    // add mapping for "/list"
 
-        //get the employees from db
+    @GetMapping("/list")
+    public String listEmployees(Model theModel) {
+
+        // get the employees from db
         List<Employee> theEmployees = employeeService.findAll();
 
-        //add to the Spring model
+        // add to the spring model
         theModel.addAttribute("employees", theEmployees);
 
         return "list-employees";
     }
-
 }
+
+
+
+
+
+
+
+
+
+
