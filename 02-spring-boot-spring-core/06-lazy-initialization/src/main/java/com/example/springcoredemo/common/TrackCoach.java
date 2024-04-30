@@ -8,14 +8,11 @@ import org.springframework.stereotype.Component;
 @Lazy
 public class TrackCoach implements Coach{
 
-    //make a constructor
     public TrackCoach(){
-        System.out.println("In constructor:" + getClass().getSimpleName());
+        System.out.println("In constructor: "+getClass().getSimpleName());
     }
-
     @Override
-    public String getDailyWorkout(){
-
-        return "Run a hard of 5K!!";
+    public String getDailyWorkout() {
+        return "Run a hard 5K!!";
     }
 }

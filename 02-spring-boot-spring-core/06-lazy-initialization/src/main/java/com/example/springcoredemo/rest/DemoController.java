@@ -9,21 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    // define private field for dependency
+    //define a private field for dependency
     private Coach myCoach;
-
-    //for some setter injection
 
     @Autowired
     public DemoController(@Qualifier("cricketCoach") Coach theCoach){
-        System.out.println("In constructor:" + getClass().getSimpleName());
+        System.out.println("In constructor: "+getClass().getSimpleName());
         myCoach = theCoach;
     }
 
     @GetMapping("/dailyWorkout")
     public String getDailyWorkout(){
-
         return myCoach.getDailyWorkout();
     }
-
 }
