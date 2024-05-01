@@ -38,6 +38,9 @@ public class DemoSecurityConfig {
         public SecurityFilterChain filterChain(HttpSecurity http) throws Exception{
             http.authorizeHttpRequests(configurer ->
                     configurer
+                            .requestMatchers("/").hasRole("EMPLOYEE") //any one can access the homepage if they have the role of "EMPLOYEE"
+                            .requestMatchers("/leaders/**").hasRole("MANAGER")
+                            .requestMatchers("/systems/**").hasRole("ADMIN")
                             .anyRequest().authenticated()
             )
                     .formLogin(form ->
@@ -46,8 +49,12 @@ public class DemoSecurityConfig {
                                     .loginProcessingUrl("/authenticateTheUser")
                                     .permitAll()
                     )
-                    .logout(logout -> logout.permitAll() //Add logout support for default URL /logout
-        );
+                    .logout(logout -> logout.permitAll()
+        )
+                    //add custom access denied page
+                    .exceptionHandling(configurer->
+                            configurer.accessDeniedPage("/access-denied")
+                    );
 
             return http.build();
         }
