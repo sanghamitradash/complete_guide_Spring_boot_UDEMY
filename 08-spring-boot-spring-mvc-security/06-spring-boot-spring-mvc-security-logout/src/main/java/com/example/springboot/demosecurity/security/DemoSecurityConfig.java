@@ -46,7 +46,7 @@ public class DemoSecurityConfig {
                                     .loginProcessingUrl("/authenticateTheUser")
                                     .permitAll()
                     )
-                    .logout(logout -> logout.permitAll()
+                    .logout(logout -> logout.permitAll() //Add logout support for default URL /logout
         );
 
             return http.build();
