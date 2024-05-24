@@ -5,134 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7476c18c-0c5b-41ba-ab96-cafadb38fdba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/java/com/example/springboot/demosecurity/DemosecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/java/com/example/springboot/demosecurity/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/java/com/example/springboot/demosecurity/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/resources/templates/fancy-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/resources/templates/leaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/resources/templates/plain-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/main/resources/templates/systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/08-spring-boot-spring-mvc-security-user-roles-restrict-access/src/test/java/com/example/springboot/demosecurity/DemosecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/java/com/example/springboot/demosecurity/DemosecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/java/com/example/springboot/demosecurity/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/java/com/example/springboot/demosecurity/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/resources/templates/access-denied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/resources/templates/fancy-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/resources/templates/leaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/resources/templates/plain-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/main/resources/templates/systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/09-spring-boot-spring-mvc-security-custom-access-denied-page/src/test/java/com/example/springboot/demosecurity/DemosecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/java/com/example/springboot/demosecurity/DemosecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/java/com/example/springboot/demosecurity/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/java/com/example/springboot/demosecurity/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/resources/templates/access-denied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/resources/templates/fancy-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/resources/templates/leaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/resources/templates/plain-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/main/resources/templates/systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/10-spring-boot-spring-mvc-security-display-content-based-on-user-roles/src/test/java/com/example/springboot/demosecurity/DemosecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/sql-scripts/04-setup-spring-security-demo-database-plaintext.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/sql-scripts/05-setup-spring-security-demo-database-bcrypt.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/sql-scripts/06-setup-spring-security-demo-database-bcrypt-custom-table-names.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/sql-scripts/SQLScript.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/sql-scripts/employee-directory.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/java/com/example/springboot/demosecurity/DemosecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/java/com/example/springboot/demosecurity/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/java/com/example/springboot/demosecurity/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/resources/templates/access-denied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/resources/templates/fancy-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/resources/templates/leaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/resources/templates/plain-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/main/resources/templates/systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/11-spring-boot-spring-mvc-security-jdbc-plain-text/src/test/java/com/example/springboot/demosecurity/DemosecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/sql-scripts/04-setup-spring-security-demo-database-plaintext.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/sql-scripts/05-setup-spring-security-demo-database-bcrypt.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/sql-scripts/06-setup-spring-security-demo-database-bcrypt-custom-table-names.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/sql-scripts/SQLScript.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/sql-scripts/employee-directory.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/java/com/example/springboot/demosecurity/DemosecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/java/com/example/springboot/demosecurity/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/java/com/example/springboot/demosecurity/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/resources/templates/access-denied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/resources/templates/fancy-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/resources/templates/leaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/resources/templates/plain-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/main/resources/templates/systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/12-spring-boot-spring-mvc-security-jdbc-bcrypt/src/test/java/com/example/springboot/demosecurity/DemosecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/sql-scripts/04-setup-spring-security-demo-database-plaintext.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/sql-scripts/05-setup-spring-security-demo-database-bcrypt.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/sql-scripts/06-setup-spring-security-demo-database-bcrypt-custom-table-names.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/sql-scripts/SQLScript.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/sql-scripts/employee-directory.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/java/com/example/springboot/demosecurity/DemosecurityApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/java/com/example/springboot/demosecurity/controller/DemoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/java/com/example/springboot/demosecurity/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/resources/templates/access-denied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/resources/templates/fancy-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/resources/templates/leaders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/resources/templates/plain-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/main/resources/templates/systems.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/13-spring-boot-spring-mvc-security-jdbc-bcrypt-custom-tables/src/test/java/com/example/springboot/demosecurity/DemosecurityApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-jpa-one-to-one-uni-create-instructor/src/main/java/com/example/cruddemo_sec9_udemy/dao/AppDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-jpa-one-to-one-uni-create-instructor/src/main/java/com/example/cruddemo_sec9_udemy/dao/AppDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-jpa-one-to-one-uni-create-instructor/src/main/java/com/example/cruddemo_sec9_udemy/entity/Instructor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01-jpa-one-to-one-uni-create-instructor/src/main/java/com/example/cruddemo_sec9_udemy/entity/InstructorDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03-jpa-one-to-one-uni-delete-instructor copy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/06-spring-boot-spring-mvc-security-logout/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-spring-boot-spring-mvc-security/06-spring-boot-spring-mvc-security-logout/src/main/java/com/example/springboot/demosecurity/security/DemoSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../15-jpa-one-to-many-uni-create-course-and-reviews/src/main/java/com/example/cruddemo_sec9_udemy/entity/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00-jpa-advanced-mappings-database-scripts/hb-04-one-to-many-uni/create-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../00-jpa-advanced-mappings-database-scripts/hb-04-one-to-many-uni/create-db.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,13 +47,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/orsac/Downloads/dev-spring-boot/09-spring-boot-jpa-advanced-mappings/05-jpa-one-to-one-biDirectional-delete-instructor-detail-and-instructor copy"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/orsac/Downloads/dev-spring-boot/09-spring-boot-jpa-advanced-mappings/05-jpa-one-to-one-biDirectional-delete-instructor-detail-and-instructor copy&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CruddemoSec9UdemyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.cruddemo_sec9_udemy.CruddemoSec9UdemyApplication" />
